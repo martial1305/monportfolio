@@ -1,0 +1,100 @@
+.photo
+{
+   border: 10px black outset;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.fond
+{
+	background-color: beige;
+	border: 10px black double;
+}
+    
+	
+
+.langue
+{
+   text-shadow: 2px 2px 4px black;
+	color: darkblue;
+	border-radius: 15px;
+	width: 200px;
+	border: 15px solid black;
+}
+.centre
+{
+    text-shadow: 2px 2px 4px black;
+	color: darkblue;
+	border-radius: 15px;
+	width: 200px;
+	border: 15px solid black;
+}
+.informatique
+{
+    text-shadow: 2px 2px 4px black;
+	color: darkblue;
+	border-radius: 15px;
+	width: 200px;
+	border: 15px solid black;
+}
+.diplomes
+{
+    text-shadow: 2px 2px 2px black;
+	color: darkblue;
+	border-radius: 15px;
+	width: 200px;
+	border: 15px solid black;
+}
+.competences
+{
+    text-shadow: 2px 2px 8px black;
+	color: darkblue;
+	border-radius: 15px;
+	width: 200px;
+	border: 15px solid black;
+}
+.papi
+{
+    font-family: cursive;
+}
+.IGS
+{
+    text-shadow: 2px 2px 4px black;
+}
+
+
+@media screen and (max-width: 500px)
+{
+	.fond
+	{
+		border: 10px black none;
+	}
+	.nanan
+	{
+		font-size: 15px;
+	}
+	.info
+	{
+		font-size: 5px;
+		color: red;
+	}
+	.photo
+	{
+		border: 5px blue outset;
+    	position: absolute;
+    	right: 10px;
+    	top: 10px;
+	}
+}
+.info
+{
+    font-size: 25px;
+    color: blue;
+}
+	
+
+@font-face {
+font-family: 'AlexBrush';
+src: url('https://www.fontsquirrel.com/fonts/download/alex-brush');
+}
